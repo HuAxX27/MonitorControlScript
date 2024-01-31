@@ -15,9 +15,9 @@ This repository contains a PowerShell script leveraging MultiMonitorTool to togg
 
    ```autohotkey
    ; Examples
-   ^!1::Run, %ComSpec% /c PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\huaxx\Documents\ControlMonitors.ps1" Desactivar1y2,, UseErrorLevel
-   ^!2::Run, %ComSpec% /c PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\huaxx\Documents\ControlMonitors.ps1" Desactivar3,, UseErrorLevel
-   ^!3::Run, %ComSpec% /c PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\huaxx\Documents\ControlMonitors.ps1" ActivarTodos,, UseErrorLevel
+   ^!1::Run, %ComSpec% /c PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File "<PATH-TO>\ControlMonitors.ps1" Disable1and2,, UseErrorLevel
+   ^!2::Run, %ComSpec% /c PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File "<PATH-TO>\ControlMonitors.ps1" Disable3,, UseErrorLevel
+   ^!3::Run, %ComSpec% /c PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File "<PATH-TO>\ControlMonitors.ps1" EnableAll,, UseErrorLevel
 
 ## Requirements:
 
